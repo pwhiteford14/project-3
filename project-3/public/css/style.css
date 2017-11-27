@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Moonlight';
+    src: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moon-light-webfont.woff2') format('woff2'),
+    url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moon-light-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;}
+
+
+body{
+    background-color: black;
+    font-family: Avenir, sans-serif;
+    color: white;
+
+}
+.top{
+    margin-top: 20px;
+}
+.main {
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: grey;
+
+}
+.author{
+    float: right;
+
+}
+.title {
+    margin-left: 20%;
+    font-family: Moonlight, sans-serif;
+    font-weight: bold;
+}
+h1{
+font-size: 4rem;
+}
+.headers{
+    font-family:Moonlight, sans-serif;
+    font-weight:300;
+}
+.text{
+    padding: 3%;
+    line-height: 2;
+}
+
+.planet {
+    border-radius: 50%;
+    margin-bottom: 3px;
+    float: right;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+    overflow: hidden;
+
+}
+
+.longimg{
+    width: 100%;
+}
+@media screen and (max-width: 360px){
+body{
+    font-size: x-large;
+}
+}
+@media screen and (max-width: 768px){
+
+}
